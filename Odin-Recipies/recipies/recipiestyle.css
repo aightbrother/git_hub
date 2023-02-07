@@ -1,0 +1,64 @@
+* {background-color: antiquewhite}
+
+.title {
+  text-align: center;
+}
+
+.body {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #EEEEEE;
+}
+
+
+.links-list a {
+  display: flex;
+  border: 2px solid brown;
+  list-style: none;
+  background-color: lightcoral;
+  color: #fff;
+  line-height: 2;
+  padding: .5em;
+}
+
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+  flex: 1;
+}
+
+#munch {
+    border: 7px darkolivegreen solid ;
+    padding: 5px;
+    display:block;
+    text-align: center;
+  }
+
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
