@@ -1,2 +1,2 @@
 # Odin_Project
-Projects Folder
+Beginner Projects Folder
