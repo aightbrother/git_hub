@@ -1,3 +1,3 @@
 # git_hub
-YUH
-Hello Odin!
+The Odin Project
+Project Folder
